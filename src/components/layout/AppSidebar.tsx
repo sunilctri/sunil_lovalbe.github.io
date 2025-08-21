@@ -35,12 +35,18 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const navigationItems = [
-  { title: "Transactions", url: "/", icon: Receipt },
+  { title: "Dashboard", url: "/", icon: Home },
+  { title: "Transactions", url: "/transactions", icon: Receipt },
   { title: "Accounts", url: "/accounts", icon: Wallet },
   { title: "Invoice", url: "/invoice", icon: FileText },
   { title: "Batch", url: "/batch", icon: Package },
   { title: "Profile", url: "/profile", icon: UserCircle },
   { title: "Contact", url: "/contact", icon: Phone },
+  { title: "My Services", url: "/services", icon: Heart },
+  { title: "Billing & Payments", url: "/billing", icon: CreditCard },
+  { title: "Care Providers", url: "/providers", icon: Users },
+  { title: "Reports", url: "/reports", icon: BarChart3 },
+  { title: "Settings", url: "/settings", icon: Settings },
 ];
 
 export function AppSidebar() {
