@@ -7,7 +7,13 @@ import {
   Settings, 
   Bell,
   BarChart3,
-  LogOut
+  LogOut,
+  Receipt,
+  Wallet,
+  FileText,
+  Package,
+  UserCircle,
+  Phone
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -30,6 +36,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const navigationItems = [
   { title: "Dashboard", url: "/", icon: Home },
+  { title: "Transactions", url: "/transactions", icon: Receipt },
+  { title: "Accounts", url: "/accounts", icon: Wallet },
+  { title: "Invoice", url: "/invoice", icon: FileText },
+  { title: "Batch", url: "/batch", icon: Package },
+  { title: "Profile", url: "/profile", icon: UserCircle },
+  { title: "Contact", url: "/contact", icon: Phone },
   { title: "My Services", url: "/services", icon: Heart },
   { title: "Billing & Payments", url: "/billing", icon: CreditCard },
   { title: "Care Providers", url: "/providers", icon: Users },
